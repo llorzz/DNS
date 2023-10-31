@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadDisplayName</key>
+    <string>Alidns(DoH&DoT)</string>
+    <key>PayloadDescription</key>
+    <string>Configures device to use AliDNS Encrypted DoH&DoT</string>
+    <key>PayloadIdentifier</key>
+    <string>com.apple.profile.e1732492-b508-497e-a1bc-25398f661b33</string>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>8B079837-A714-41B6-B47A-64D4AA3954F1</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+      <!-- Alidns(DoH) -->
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Alidns(DoH)</string>
+        <key>PayloadIdentifier</key>
+        <string>com.apple.dns.c90a14b6-91a1-4fc9-8097-16494e097aeb</string>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadUUID</key>
+        <string>53D51BFF-0B6A-4EA9-AE7E-975E084EA3C4</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerURL</key>
+          <string>https://dns.alidns.com/dns-query</string>
+        </dict>
+      </dict>
+      <!-- Alidns(DoT) -->
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Alidns(DoT)</string>
+        <key>PayloadIdentifier</key>
+        <string>com.apple.dns.26261a5d-e241-4b4c-9d0c-1c8917bbfc4b</string>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadUUID</key>
+        <string>B3CEC4FD-12C7-4BFD-B01A-00F4B40416B2</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>TLS</string>
+          <key>ServerName</key>
+          <string>dns.alidns.com</string>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>
