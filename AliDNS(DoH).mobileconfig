@@ -3,9 +3,9 @@
 <plist version="1.0">
   <dict>
     <key>PayloadDisplayName</key>
-    <string>阿里云公共 DNS</string>
+    <string>AliDNS(DoH)</string>
     <key>PayloadDescription</key>
-    <string>在此设备上使用由阿里云提供的公共 DNS 解析服务。</string>
+    <string>AliDNS(DoH)</string>
     <key>PayloadIdentifier</key>
     <string>com.apple.profile.e1732492-b508-497e-a1bc-25398f661b33</string>
     <key>PayloadScope</key>
@@ -13,21 +13,21 @@
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>025F4C44-2F9E-4BC0-9064-B73678951697</string>
+    <string>CED50604-40E8-4360-936C-B7159EF23ECB</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadContent</key>
     <array>
-      <!-- 阿里云公共 DNS (DoH) -->
+      <!-- AliDNS(DoH) -->
       <dict>
         <key>PayloadDisplayName</key>
-        <string>阿里云公共 DNS (DoH)</string>
+        <string>AliDNS(DoH)</string>
         <key>PayloadIdentifier</key>
         <string>com.apple.dns.c90a14b6-91a1-4fc9-8097-16494e097aeb</string>
         <key>PayloadType</key>
         <string>com.apple.dnsSettings.managed</string>
         <key>PayloadUUID</key>
-        <string>A3FCDF1B-B679-4853-81B0-BA172CAAB8FD</string>
+        <string>955578DE-0376-40C5-A488-84AC53AE2A2F</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>DNSSettings</key>
