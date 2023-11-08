@@ -13,7 +13,7 @@
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>573F6C81-E42C-42A8-ABA0-0F6F7D26E0E4</string>
+    <string>025F4C44-2F9E-4BC0-9064-B73678951697</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadContent</key>
@@ -27,14 +27,13 @@
         <key>PayloadType</key>
         <string>com.apple.dnsSettings.managed</string>
         <key>PayloadUUID</key>
-        <string>332D1DCD-AF98-4A41-AE00-D33600AAF1B8</string>
+        <string>A3FCDF1B-B679-4853-81B0-BA172CAAB8FD</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>DNSSettings</key>
         <dict>
           <key>DNSProtocol</key>
           <string>HTTPS</string>
-          <key>ServerAddresses</key>
           <key>ServerURL</key>
           <string>https://dns.alidns.com/dns-query</string>
         </dict>
